@@ -32,7 +32,7 @@ class Librarian
   def save
     begin
       file = File.open('./data/library.yml', 'w')
-      file.write(@library)
+      file.write(YAML.dump(@library))
     rescue IOError => e
       puts "Exception: #{e}"
       e
