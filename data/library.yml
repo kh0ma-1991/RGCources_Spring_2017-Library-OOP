@@ -1,131 +1,131 @@
 --- !ruby/object:Library
 books:
-- !ruby/object:Models::Book
+- !ruby/object:Book
   id: 4
   title: Kobzar
   author_id: 1
-- !ruby/object:Models::Book
+- !ruby/object:Book
   id: 5
   title: Haidamaks, The
   author_id: 1
-- !ruby/object:Models::Book
+- !ruby/object:Book
   id: 6
   title: Dream, The
   author_id: 1
-- !ruby/object:Models::Book
+- !ruby/object:Book
   id: 7
   title: Kaydasheva semya
   author_id: 2
-- !ruby/object:Models::Book
+- !ruby/object:Book
   id: 8
   title: Prichepa
   author_id: 2
-- !ruby/object:Models::Book
+- !ruby/object:Book
   id: 9
   title: In the Catacombs
   author_id: 3
-- !ruby/object:Models::Book
+- !ruby/object:Book
   id: 10
   title: The Babylonian Captivity
   author_id: 3
 orders:
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 17
   book_id: 4
   reader_id: 11
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 18
   book_id: 5
   reader_id: 12
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 19
   book_id: 6
-  reader_id: 13
-- !ruby/object:Models::Order
+  reader_id: 15
+- !ruby/object:Order
   id: 20
   book_id: 4
   reader_id: 11
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 21
   book_id: 5
   reader_id: 12
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 22
   book_id: 6
   reader_id: 13
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 23
   book_id: 4
   reader_id: 11
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 24
   book_id: 5
   reader_id: 12
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 25
   book_id: 6
-  reader_id: 13
-- !ruby/object:Models::Order
+  reader_id: 16
+- !ruby/object:Order
   id: 26
   book_id: 7
   reader_id: 14
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 27
   book_id: 8
   reader_id: 15
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 28
   book_id: 9
   reader_id: 16
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 29
   book_id: 10
   reader_id: 14
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 30
   book_id: 7
   reader_id: 15
-- !ruby/object:Models::Order
+- !ruby/object:Order
   id: 31
   book_id: 9
   reader_id: 16
 readers:
-- !ruby/object:Models::Reader
+- !ruby/object:Reader
   id: 11
   name: Nazar
   email: nazar@ukr.net
   city: Lviv
   street: Shevchenko
   house: 33
-- !ruby/object:Models::Reader
+- !ruby/object:Reader
   id: 12
   name: Ivan
   email: ivan@gmail.com
   city: Dnipro
   street: A.Polya
   house: 15
-- !ruby/object:Models::Reader
+- !ruby/object:Reader
   id: 13
   name: Anna
   email: anna@i.ua
   city: Kyiv
   street: Khreshchatyk
   house: 11
-- !ruby/object:Models::Reader
+- !ruby/object:Reader
   id: 14
   name: Anton
   email: anton@cek.net
   city: Mariupol
   street: Gretska
   house: 158
-- !ruby/object:Models::Reader
+- !ruby/object:Reader
   id: 15
   name: Bogdan
   email: bg1991@me.com
   city: Vorokhta
   street: Lisova
   house: 17
-- !ruby/object:Models::Reader
+- !ruby/object:Reader
   id: 16
   name: Nino
   email: heilei@cc.ua
@@ -133,14 +133,14 @@ readers:
   street: Naftova
   house: 77
 authors:
-- !ruby/object:Models::Author
+- !ruby/object:Author
   id: 1
   name: Taras Shevchenko
   biography: Taras Hryhorovich Shevchenko, the great Ukrainian poet, artist and thinker,
     was born on March 9, 1814, in the village of Moryntsi in central Ukraine, then
     part of the Russian Empire. His parents, H. Shevchenko and K. Shevchenko, were
     serfs on the land of V. Engelhardt.
-- !ruby/object:Models::Author
+- !ruby/object:Author
   id: 2
   name: Ivan Levitsky
   biography: Ivan Levitsky, pseudonym of Ivan Nechuy-levitsky, also spelled Nechúi-levýtsky,
@@ -153,7 +153,7 @@ authors:
     semya (1879; “The Kaydashev Family”), and Burlachka (1881; “A Factory Girl”).
     Use of objective narrative and details of folklore strengthen the realistic effect
     of his works.
-- !ruby/object:Models::Author
+- !ruby/object:Author
   id: 3
   name: Lesya Ukrainka
   biography: Lesya Ukrainka, pseudonym of Larisa Petrovna Kosach-kvitka (born Feb.
